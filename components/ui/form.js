@@ -8,6 +8,8 @@ const Form = () => {
   const [isUserWaitListed, setIsUserWaitListed] = useState(false);
 
   const handleSubmit = (e) => {
+
+    
     if (email === "") {
       alert("Please enter an email address");
       return;
